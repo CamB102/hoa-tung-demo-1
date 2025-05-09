@@ -1085,3 +1085,18 @@ h5 {
   background-color: var(--bs-primary);
   color: var(--bs-light);
 }
+
+#bang-gia iframe {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: 700px;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 415px) {
+    #bang-gia iframe {
+      width: 100%; /* Adjust the width for smaller screens */
+      height: 400px; /* Adjust the height for smaller screens */
+    }
+  }
